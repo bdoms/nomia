@@ -1,0 +1,98 @@
+
+.container {
+	max-width: 1000px; /* 1024 minus scrollbar */
+	margin: 0 auto;
+}
+
+/* single breakpoint for larger devices */
+@media all and (min-width: 720px) {
+
+.grid {
+	display: table;
+	width: 100%;
+}
+
+.one-half, .one-third, .one-fourth, .one-fifth, .one-sixth, .one-eighth,
+.one-twelfth, .two-thirds, .three-fourths, .one-quarter, .three-quarters,
+.two-fifths, .three-fifths, .four-fifths, .five-sixths, .three-eighths,
+.five-eighths, .seven-eighths, .five-twelfths, .seven-twelfths, .eleven-twelfths  {
+	display: table-cell;
+}
+
+.one-half {
+	width: 50%;
+}
+
+.one-third {
+	width: 33.3333%;
+}
+
+.one-fourth, .one-quarter {
+	width: 25%;
+}
+
+.one-fifth {
+	width: 20%;
+}
+
+.one-sixth {
+	width: 16.6666%;
+}
+
+.one-eighth {
+	width: 12.5%;
+}
+
+.one-twelfth {
+	width: 8.3333%;
+}
+
+.two-thirds {
+	width: 66.6666%;
+}
+
+.three-fourths, .three-quarters {
+	width: 75%;
+}
+
+.two-fifths {
+	width: 40%;
+}
+
+.three-fifths {
+	width: 60%;
+}
+
+.four-fifths {
+	width: 80%;
+}
+
+.five-sixths {
+	width: 83.3333%;
+}
+
+.three-eighths {
+	width: 37.5%;
+}
+
+.five-eighths {
+	width: 62.5%;
+}
+
+.seven-eighths {
+	width: 87.5%;
+}
+
+.five-twelfths {
+	width: 41.6666%;
+}
+
+.seven-twelfths {
+	width: 58.3333%;
+}
+
+.eleven-twelfths {
+	width: 91.6666%;
+}
+
+}
