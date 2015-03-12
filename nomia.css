@@ -17,6 +17,7 @@
 .two-fifths, .three-fifths, .four-fifths, .five-sixths, .three-eighths,
 .five-eighths, .seven-eighths, .five-twelfths, .seven-twelfths, .eleven-twelfths  {
 	display: table-cell;
+	vertical-align: top;
 }
 
 .one-half {
